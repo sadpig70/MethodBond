@@ -1,3 +1,5 @@
+![MethodBond](assets/MethodBond_hero.jpg)
+
 # MethodBond
 
 > **Is a published method or model artifact properly licensed, independently reproducible, and certified against its declared behavior baseline?**
