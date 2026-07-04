@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MethodBond"
+version = "0.1.0"
+description = "Method-publishing trust-bundle gate: license + reproducibility + certification."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "sadpig70", email = "sadpig70@example.invalid"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+methodbond = "MethodBond.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["MethodBond*"]
